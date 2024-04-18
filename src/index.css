@@ -1,0 +1,67 @@
+
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4; 
+}
+
+
+.App {
+  max-width: 600px; 
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+
+input[type="text"],
+input[type="date"],
+button {
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 2px solid #ddd; 
+  border-radius: 5px; 
+  width: calc(50% - 18px);
+}
+
+button {
+  background-color: #5cb85c; 
+  color: white;
+  border: none;
+  width: auto;
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #4cae4c; 
+}
+
+
+.task {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  padding: 10px;
+  position: relative; 
+}
+
+.task.completed {
+  color: #aaa; 
+  text-decoration: line-through; 
+}
+
+.task h3 {
+  margin-top: 0;
+  color: #333; 
+}
+
+.checkmark {
+  color: green;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+}
